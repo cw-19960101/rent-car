@@ -1,0 +1,14 @@
+public class PassengerCar extends Car{
+    public intpCapacity;
+    public int getpCapacity(){
+        return pCapacity;
+    }
+    public void setpCapacity( int pCapacity){
+        this.pCapacity=pCapacity;
+    }
+    public passengerCar( String m_name,int m_rent,int m_pCapacity){
+        name=m_name;
+        rent=m_rent;
+        pCapacity=m_pCapacity;
+    }
+}

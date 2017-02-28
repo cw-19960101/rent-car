@@ -1,0 +1,22 @@
+public class pickUp extends Car{
+    public int pCapacity;
+    public int getPCapacity(){
+        return pCapacity;
+    }
+    public void setpCapacity(int pCapacity){
+        this.pCapacity=pCapacity;
+    }
+    public int getPCapacity(){
+        return rCapacity;
+    }
+    public void setpCapacity(int rCapacity){
+        this.rCapacity=rCapacity;
+    }
+    public int rCapacity;
+    public pickUp(String m_name,int m_rent,int m_pCapacity,int m_rCapacity){
+        name=m_name;
+        rent=m_rent;
+        pCapacity=m_pCapacity;
+        rCapacity=m_rCapacity;
+    }
+}
